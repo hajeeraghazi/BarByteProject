@@ -8,6 +8,8 @@
 /*Menu css*/
 .menu {
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 #slider-container {
   width: 400px;
