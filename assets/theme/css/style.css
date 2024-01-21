@@ -81,7 +81,8 @@ a {
   font-weight: 400;
   cursor: pointer;
 }
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
@@ -124,13 +125,16 @@ strong {
   font-weight: bold;
 }
 
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
   transition-delay: 9999s;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
 }
 
-textarea[type=hidden] {
+textarea[type="hidden"] {
   display: none;
 }
 
@@ -372,7 +376,7 @@ nav .mbr-section-btn {
   font-weight: 700;
 }
 
-[type=submit] {
+[type="submit"] {
   -webkit-appearance: none;
 }
 
@@ -390,6 +394,7 @@ nav .mbr-section-btn {
   min-height: 100vh;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-image: url(https://miro.medium.com/v2/resize:fit:640/format:webp/1*l0o1JHyzSLYyGLpMPLGMmg.gif);
 }
 
 /*! Map */
@@ -663,7 +668,7 @@ nav .mbr-section-btn {
   padding: 1.07em 0.5em;
 }
 
-input[type=range] {
+input[type="range"] {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -803,7 +808,8 @@ body {
   transition: border-color 0.25s ease 0s;
   border: 1px solid transparent !important;
   border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
 }
 .form-active .form-control:invalid {
   border-color: red;
@@ -818,7 +824,7 @@ form .row {
   margin-left: -0.6rem;
   margin-right: -0.6rem;
 }
-form .row [class*=col] {
+form .row [class*="col"] {
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
@@ -845,7 +851,7 @@ form .btn {
   min-height: 48px;
 }
 
-.gdpr-block label span.textGDPR input[name=gdpr] {
+.gdpr-block label span.textGDPR input[name="gdpr"] {
   top: 7px;
 }
 
@@ -902,7 +908,7 @@ blockquote {
   margin-left: -16px;
   margin-right: -16px;
 }
-.row > [class*=col] {
+.row > [class*="col"] {
   padding-left: 16px;
   padding-right: 16px;
 }
