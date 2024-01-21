@@ -1,310 +1,588 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Ordering - Ignyt</title>
-    <link rel="stylesheet" href="stylesOrderpg.css">
-</head>
-<body>
+    <link rel="stylesheet" href="stylesOrderpg.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://lh3.googleusercontent.com/p/AF1QipMA1DGDHG4M4k52izf50wMFSmzC7sZVU7O-TSEj=s1360-w1360-h1020"
+    />
+  </head>
+  <body>
     <header>
-        <h1>Online Ordering</h1>
+      <h1>Online Ordering</h1>
     </header>
-    
+
     <main>
-        
-        <section class="menu-section" id="Soups">
-            <h2>Soups</h2>
-            <div class="menu-item">
-                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/tomato-soup-recipe.jpg" alt="Starters Image" >
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Ceaser Salad - ₹199.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Grill Chicken Salad - ₹277.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Greek Salad - ₹199.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Green Salad - ₹134.00</li>
-                    <!-- Add more soup items as needed -->
-                </ul>
-            </div>
-        </section>
-
-        <section class="menu-section" id="Salads">
-            <h2>Salads</h2>
-            <div class="menu-item">
-                <img src="https://www.recipetineats.com/wp-content/uploads/2021/08/Garden-Salad_47-SQ.jpg" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Cream of Mushroom - ₹165.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Cream of Corn - ₹155.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Manchow - ₹165.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Hot & Sour - ₹165.00</li>
-                    <!-- Add more salad items as needed -->
-                </ul>
-            </div>
-        </section>
-
-
-        <section class="menu-section" id="Breads">
-            <h2>Breads</h2>
-            <div class="menu-item">
-                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/tandoori-roti-recipe.jpg" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Tandoori Roti - ₹40.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Butter Naan - ₹50.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Garlic Naan - ₹60.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Butter Kulcha - ₹65.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Plain Kulcha - ₹45.00</li>
-
-                    <!-- Add more Breads items as needed -->
-                </ul>
-            </div>
-        </section>
-
-        <section class="menu-section" id="Pasta">
-            <h2>Pasta</h2>
-            <div class="menu-item">
-                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/05/masala-pasta.jpg" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Alfredo veg - ₹240.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Mix sauce Veg - ₹250.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> chicken carbonara - ₹299.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> chicken sausage pasta - ₹299.00</li>
-                    <!-- Add more pasta items as needed -->
-                </ul>
-            </div>
-        </section>
-       
-
-
-        <section class="menu-section" id="Main  Corse">
-            <h2>Main Corse</h2>
-            <h3>Vegetarian</h3>
-            <div class="menu-item">
-                <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2017/06/Best-Places-for-Hardcore-Vegeterians-in-India.jpg" alt="Vegetarian Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="4"> Mushroom Masala - ₹239.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> khadai veg- ₹240.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Veg Deewandi Handi- ₹225.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> khadai paneer- ₹210.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> paneer tikka masala- ₹225.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> paneer do payaz- ₹230.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> punjabi paneer masala- /250.00-₹</li>
-                    <!-- Add more vegetaian items as needed -->
-                </ul>
-            </div>
-            <h3>Non-Veg</h3>
-            <div class="menu-item">
-                <img src="https://jajmaan.in/wp-content/uploads/2022/03/Untitled-design-3.png" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Chicken payaz- ₹299.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> chicken tikka masala- ₹299.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> chicken  keema mattar masala- ₹299.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> chicken kolhapuri- ₹299.00</li>
-
-                    <!-- Add Non-Veg items as needed -->
-                </ul>
-            </div>
-
-        </section>
-
-        <section class="menu-section" id="French Fries">
-            <h2>French Fries</h2>
-            <div class="menu-item">
-                <img src="https://images.themodernproper.com/billowy-turkey/production/posts/2022/Homemade-French-Fries_8.jpg?w=960&h=720&q=82&fm=jpg&fit=crop&dm=1662474181&s=5dd5ceda5f0fe7cad1646e5c997c32ae" alt="French fries Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="5"> Classic salted - ₹159.00</li>
-                    <li><input type="checkbox" name="item_ids" value="6"> peri-peri- ₹50.00 </li>
-                    <li><input type="checkbox" name="item_ids" value="5"> Cheesy- ₹169.00</li>
-                    <li><input type="checkbox" name="item_ids" value="5"> Mexican- ₹249.00</li>
-                    <li><input type="checkbox" name="item_ids" value="5"> Chicken loaded fries- ₹269.00</li>
-
-
-                    <!-- Add more French Fries items as needed -->
-                </ul>
-            </div>
-        </section>
-
-
-
-        <section class="menu-section" id="Drinks">
-            <h2>Drinks</h2>
-            <h3>Milkshake</h3>
-            <div class="menu-item">
-                <img src="https://www.spoonforkbacon.com/wp-content/uploads/2023/04/milshake-recipe-card.jpg" alt="Vegetarian Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="4"> Horlicks kitkat - ₹220.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Ferrero Rocher- ₹260.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Mango Oreo- ₹220.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Dark Chocolate- ₹220.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Nutella- ₹240.00</li>
-        
-                    <!-- Add more milkshake items as needed -->
-                </ul>
-            </div>
-            <h3>Mocktails</h3>
-            <div class="menu-item">
-                <img src="https://writtygritty.com/wp-content/uploads/2021/11/cocktails-drinks-classic-alcoholic-long-drink-or-mocktail-highballs-with-berries-lime-herbs.jpg" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Lavender Mojito- ₹200.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Red Oxide- ₹180.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Mango Tango- ₹200.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Berry Blast- ₹230.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Virgin Mojito- ₹200.00</li>
-
-                    <!-- Add more Mocktails items as needed -->
-                </ul>
-            </div>
-
-        </section>
-
-
-        <section class="menu-section" id="Desserts">
-            <h2>Deserts</h2>
-            <div class="menu-item">
-                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?resize=768,574" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Choco Bomb - ₹200.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Brownie and Ice Cream - ₹200.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Cheese cake/Blueberry/Strawberry - ₹165.00</li>
-                    <!-- Add more dessert items as needed -->
-                </ul>
-            </div>
-        </section>
-
-
-        <section class="menu-section" id="Egg">
-            <h2>Egg</h2>
-            <div class="menu-item">
-                <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Brunch-eggs-8f0a8dc.jpg?quality=90&resize=556,505" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Masala Omlette - ₹135.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Cheese Omlette - ₹155.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Chicken Cheese Omlette - ₹189.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Egg Manchurian - ₹199.00</li>
-                    <!-- Add more salad items as needed -->
-                </ul>
-            </div>
-        </section>
-
-
-        <section class="menu-section" id="Appetizers">
-            <h2>Appetizers</h2>
-            <h3>Manchurian</h3>
-            <div class="menu-item">
-                <img src="https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375-600x600.jpg" alt="Vegetarian Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="4"> Gobi - ₹189.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Mushroom- ₹209.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Paneer- ₹249.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> chicken- ₹269.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Fish- ₹369.00</li>
-        
-                    <!-- Add more manchurian items as needed -->
-                </ul>
-            </div>
-            <h3>Pepper Dry</h3>
-            <div class="menu-item">
-                <img src="https://www.recipehub.in/wp-content/uploads/2020/06/pepperchicken12website-1.jpg" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Mushroom- ₹209.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Paneer- ₹249.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken- ₹269.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Fish- ₹369.00</li>
-                    <!-- Add more Pepper Dry items as needed -->
-                </ul>
-            </div>
-
-            <h3>Chilli</h3>
-            <div class="menu-item">
-                <img src="https://static.toiimg.com/thumb/53094926.cms?width=1200&height=900" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Mushroom- ₹199.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Paneer- ₹220.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken- ₹220.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Fish- ₹369.00</li>
-                    <!-- Add more chilli items as needed -->
-                </ul>
-            </div>
-
-            <h3><b>65</b></h3>
-            <div class="menu-item">
-                <img src="https://yummyindiankitchen.com/wp-content/uploads/2018/04/chicken-65.jpg" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Mushroom- ₹199.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Paneer- ₹129.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken- ₹259.00</li>
-                    <!-- Add more 65 items as needed -->
-                </ul>
-            </div>
-
-        </section>
-
-
-        <section class="menu-section" id="Rice">
-            <h2>Rice</h2>
-            <h3>Vegetarian</h3>
-            <div class="menu-item">
-                <img src="https://static.toiimg.com/thumb/53098310.cms?width=800&height=800&imgsize=579584" alt="Vegetarian Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="4"> Jeera Rice - ₹160.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Ghee Rice- ₹175.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Plain Rice- ₹100.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Veg Fried Rice- ₹140.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Palak Kichadi- ₹229.00</li>
-        
-                    <!-- Add more veg items as needed -->
-                </ul>
-            </div>
-            <h3>Non-Vegetarian</h3>
-            <div class="menu-item">
-                <img src="https://desertfoodfeed.com/wp-content/uploads/2020/07/non-veg-rice.jpg" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Chicken Fry Piece Biriyani- ₹299.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken Fried Rice- ₹225.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken Shezwan Fried Rice- ₹280.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Chicken Mexican Fried Rice- ₹280.00</li>
-                    <!-- Add more non veg items as needed -->
-                </ul>
-            </div>
-
-            <h3>Egg</h3>
-            <div class="menu-item">
-                <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/egg-pulao-recipe-500x375.jpg" alt="Non-veg Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="3"> Egg Fried Rice- ₹179.00</li>
-                    <li><input type="checkbox" name="item_ids" value="4"> Egg Shezwan Friedd Rice- ₹199.00</li>
-                    <!-- Add more egg items as needed -->
-                </ul>
-            </div>
-
-        </section>
-
-
-        <section class="menu-section" id="Noodles">
-            <h2>Noodles</h2>
-            <div class="menu-item">
-                <img src="https://www.chilipeppermadness.com/wp-content/uploads/2023/06/Gochujang-Noodles-Recipe-SQ.jpg" alt="Starters Image">
-                <ul>
-                    <li><input type="checkbox" name="item_ids" value="1"> Chilly Grlic Noodles - ₹199.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Hakka Noodles - ₹169.00</li>
-                    <li><input type="checkbox" name="item_ids" value="2"> Shezwan Noodles - ₹189.00</li>
-                    <!-- Add more dessert items as needed -->
-                </ul>
-            </div>
-        </section>
-
-
-
-
-
-        <div id="cart">
-            <h2>Shopping Cart</h2>
-            <ul id="cartItems"></ul>
-            
-            <div id="totalPrice">Total: ₹0.00</div>
+      <section class="menu-section" id="Soups">
+        <h2>Soups</h2>
+        <div class="menu-item">
+          <img
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/11/tomato-soup-recipe.jpg"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Ceaser Salad -
+              ₹199.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Grill Chicken
+              Salad - ₹277.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Greek Salad -
+              ₹199.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Green Salad -
+              ₹134.00
+            </li>
+            <!-- Add more soup items as needed -->
+          </ul>
         </div>
-        
-        <button type="submit" id="placeOrder">Place Order</button>
+      </section>
+
+      <section class="menu-section" id="Salads">
+        <h2>Salads</h2>
+        <div class="menu-item">
+          <img
+            src="https://www.recipetineats.com/wp-content/uploads/2021/08/Garden-Salad_47-SQ.jpg"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Cream of
+              Mushroom - ₹165.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Cream of Corn
+              - ₹155.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Manchow -
+              ₹165.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Hot & Sour -
+              ₹165.00
+            </li>
+            <!-- Add more salad items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Breads">
+        <h2>Breads</h2>
+        <div class="menu-item">
+          <img
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/tandoori-roti-recipe.jpg"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Tandoori Roti
+              - ₹40.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Butter Naan -
+              ₹50.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Garlic Naan -
+              ₹60.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Butter Kulcha
+              - ₹65.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Plain Kulcha -
+              ₹45.00
+            </li>
+
+            <!-- Add more Breads items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Pasta">
+        <h2>Pasta</h2>
+        <div class="menu-item">
+          <img
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2019/05/masala-pasta.jpg"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Alfredo veg -
+              ₹240.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Mix sauce Veg
+              - ₹250.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> chicken
+              carbonara - ₹299.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> chicken
+              sausage pasta - ₹299.00
+            </li>
+            <!-- Add more pasta items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Main  Corse">
+        <h2>Main Corse</h2>
+        <h3>Vegetarian</h3>
+        <div class="menu-item">
+          <img
+            src="https://www.tourmyindia.com/blog//wp-content/uploads/2017/06/Best-Places-for-Hardcore-Vegeterians-in-India.jpg"
+            alt="Vegetarian Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Mushroom
+              Masala - ₹239.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> khadai veg-
+              ₹240.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Veg Deewandi
+              Handi- ₹225.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> khadai paneer-
+              ₹210.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> paneer tikka
+              masala- ₹225.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> paneer do
+              payaz- ₹230.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> punjabi paneer
+              masala- /250.00-₹
+            </li>
+            <!-- Add more vegetaian items as needed -->
+          </ul>
+        </div>
+        <h3>Non-Veg</h3>
+        <div class="menu-item">
+          <img
+            src="https://jajmaan.in/wp-content/uploads/2022/03/Untitled-design-3.png"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Chicken payaz-
+              ₹299.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> chicken tikka
+              masala- ₹299.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> chicken keema
+              mattar masala- ₹299.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> chicken
+              kolhapuri- ₹299.00
+            </li>
+
+            <!-- Add Non-Veg items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="French Fries">
+        <h2>French Fries</h2>
+        <div class="menu-item">
+          <img
+            src="https://images.themodernproper.com/billowy-turkey/production/posts/2022/Homemade-French-Fries_8.jpg?w=960&h=720&q=82&fm=jpg&fit=crop&dm=1662474181&s=5dd5ceda5f0fe7cad1646e5c997c32ae"
+            alt="French fries Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="5" /> Classic salted
+              - ₹159.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="6" /> peri-peri-
+              ₹50.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="5" /> Cheesy-
+              ₹169.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="5" /> Mexican-
+              ₹249.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="5" /> Chicken loaded
+              fries- ₹269.00
+            </li>
+
+            <!-- Add more French Fries items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Drinks">
+        <h2>Drinks</h2>
+        <h3>Milkshake</h3>
+        <div class="menu-item">
+          <img
+            src="https://www.spoonforkbacon.com/wp-content/uploads/2023/04/milshake-recipe-card.jpg"
+            alt="Vegetarian Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Horlicks
+              kitkat - ₹220.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Ferrero
+              Rocher- ₹260.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Mango Oreo-
+              ₹220.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Dark
+              Chocolate- ₹220.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Nutella-
+              ₹240.00
+            </li>
+
+            <!-- Add more milkshake items as needed -->
+          </ul>
+        </div>
+        <h3>Mocktails</h3>
+        <div class="menu-item">
+          <img
+            src="https://writtygritty.com/wp-content/uploads/2021/11/cocktails-drinks-classic-alcoholic-long-drink-or-mocktail-highballs-with-berries-lime-herbs.jpg"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Lavender
+              Mojito- ₹200.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Red Oxide-
+              ₹180.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Mango Tango-
+              ₹200.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Berry Blast-
+              ₹230.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Virgin Mojito-
+              ₹200.00
+            </li>
+
+            <!-- Add more Mocktails items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Desserts">
+        <h2>Deserts</h2>
+        <div class="menu-item">
+          <img
+            src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?resize=768,574"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Choco Bomb -
+              ₹200.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Brownie and
+              Ice Cream - ₹200.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Cheese
+              cake/Blueberry/Strawberry - ₹165.00
+            </li>
+            <!-- Add more dessert items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Egg">
+        <h2>Egg</h2>
+        <div class="menu-item">
+          <img
+            src="https://images.immediate.co.uk/production/volatile/sites/30/2021/08/Brunch-eggs-8f0a8dc.jpg?quality=90&resize=556,505"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Masala Omlette
+              - ₹135.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Cheese Omlette
+              - ₹155.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Chicken Cheese
+              Omlette - ₹189.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Egg Manchurian
+              - ₹199.00
+            </li>
+            <!-- Add more salad items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Appetizers">
+        <h2>Appetizers</h2>
+        <h3>Manchurian</h3>
+        <div class="menu-item">
+          <img
+            src="https://www.licious.in/blog/wp-content/uploads/2021/09/shutterstock_1650877375-600x600.jpg"
+            alt="Vegetarian Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Gobi - ₹189.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Mushroom-
+              ₹209.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Paneer-
+              ₹249.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> chicken-
+              ₹269.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Fish- ₹369.00
+            </li>
+
+            <!-- Add more manchurian items as needed -->
+          </ul>
+        </div>
+        <h3>Pepper Dry</h3>
+        <div class="menu-item">
+          <img
+            src="https://www.recipehub.in/wp-content/uploads/2020/06/pepperchicken12website-1.jpg"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Mushroom-
+              ₹209.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Paneer-
+              ₹249.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken-
+              ₹269.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Fish- ₹369.00
+            </li>
+            <!-- Add more Pepper Dry items as needed -->
+          </ul>
+        </div>
+
+        <h3>Chilli</h3>
+        <div class="menu-item">
+          <img
+            src="https://static.toiimg.com/thumb/53094926.cms?width=1200&height=900"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Mushroom-
+              ₹199.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Paneer-
+              ₹220.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken-
+              ₹220.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Fish- ₹369.00
+            </li>
+            <!-- Add more chilli items as needed -->
+          </ul>
+        </div>
+
+        <h3><b>65</b></h3>
+        <div class="menu-item">
+          <img
+            src="https://yummyindiankitchen.com/wp-content/uploads/2018/04/chicken-65.jpg"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Mushroom-
+              ₹199.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Paneer-
+              ₹129.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken-
+              ₹259.00
+            </li>
+            <!-- Add more 65 items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Rice">
+        <h2>Rice</h2>
+        <h3>Vegetarian</h3>
+        <div class="menu-item">
+          <img
+            src="https://static.toiimg.com/thumb/53098310.cms?width=800&height=800&imgsize=579584"
+            alt="Vegetarian Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Jeera Rice -
+              ₹160.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Ghee Rice-
+              ₹175.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Plain Rice-
+              ₹100.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Veg Fried
+              Rice- ₹140.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Palak Kichadi-
+              ₹229.00
+            </li>
+
+            <!-- Add more veg items as needed -->
+          </ul>
+        </div>
+        <h3>Non-Vegetarian</h3>
+        <div class="menu-item">
+          <img
+            src="https://desertfoodfeed.com/wp-content/uploads/2020/07/non-veg-rice.jpg"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Chicken Fry
+              Piece Biriyani- ₹299.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken Fried
+              Rice- ₹225.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken
+              Shezwan Fried Rice- ₹280.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Chicken
+              Mexican Fried Rice- ₹280.00
+            </li>
+            <!-- Add more non veg items as needed -->
+          </ul>
+        </div>
+
+        <h3>Egg</h3>
+        <div class="menu-item">
+          <img
+            src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/07/egg-pulao-recipe-500x375.jpg"
+            alt="Non-veg Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="3" /> Egg Fried
+              Rice- ₹179.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="4" /> Egg Shezwan
+              Friedd Rice- ₹199.00
+            </li>
+            <!-- Add more egg items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <section class="menu-section" id="Noodles">
+        <h2>Noodles</h2>
+        <div class="menu-item">
+          <img
+            src="https://www.chilipeppermadness.com/wp-content/uploads/2023/06/Gochujang-Noodles-Recipe-SQ.jpg"
+            alt="Starters Image"
+          />
+          <ul>
+            <li>
+              <input type="checkbox" name="item_ids" value="1" /> Chilly Grlic
+              Noodles - ₹199.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Hakka Noodles
+              - ₹169.00
+            </li>
+            <li>
+              <input type="checkbox" name="item_ids" value="2" /> Shezwan
+              Noodles - ₹189.00
+            </li>
+            <!-- Add more dessert items as needed -->
+          </ul>
+        </div>
+      </section>
+
+      <div id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cartItems"></ul>
+
+        <div id="totalPrice">Total: ₹0.00</div>
+      </div>
+
+      <button type="submit" id="placeOrder">Place Order</button>
     </main>
 
     <script src="scriptOrderpg.js"></script>
-</body>
+  </body>
 </html>
