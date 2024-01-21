@@ -10,6 +10,7 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  size: 50%;
 }
 #slider-container {
   width: 400px;
