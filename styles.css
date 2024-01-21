@@ -194,6 +194,10 @@
 .cid-u1Sp6H7DEL .navbar-brand img {
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
 }
 .cid-u1Sp6H7DEL .navbar-brand .navbar-caption {
   line-height: inherit !important;
@@ -366,7 +370,7 @@
   padding: 0.5rem 1.8rem;
 }
 .cid-u1Sp6H7DEL .navbar .navbar-logo img {
-  min-width: 6rem;
+  min-width: auto;
   object-fit: cover;
 }
 .cid-u1Sp6H7DEL .navbar .navbar-collapse {
