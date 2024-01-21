@@ -1625,3 +1625,43 @@
 .cid-u1Sp6HagCD .content-head {
   max-width: 800px;
 }
+.events-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.event {
+  width: 48%;
+  box-sizing: border-box;
+  padding: 10px;
+
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.event img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.event:hover img {
+  transform: scale(1.1);
+}
+
+.join-button {
+  background-color: #ddc80d;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.join-button:hover {
+  background-color: black;
+  transform: scale(1.4);
+}
