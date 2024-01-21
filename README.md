@@ -32,16 +32,16 @@ Welcome to the Ignyt Beer Lounge Website project! This internship project involv
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ignyt-beer-lounge-website.git
+   git clone https://github.com/hajeeraghazi/BarByteProject
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ignyt-beer-lounge-website
+   cd BarByteProject
    ```
 
-3. Open the `index.html` file in your preferred web browser to view the website locally.
+3. Open the `ignyt.html` file in your preferred web browser to view the website locally.
 
 ## Usage
 
